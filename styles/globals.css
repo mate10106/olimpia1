@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply font-bold text-white font-serif text-2xl;
+}
+
+thead,
+td {
+  @apply p-4 bg-orange-500 border font-bold;
+}
+
+h3 {
+  @apply font-bold text-2xl mb-4;
+}
+
+.szoveg {
+  @apply p-2 text-left mb-4;
+}
